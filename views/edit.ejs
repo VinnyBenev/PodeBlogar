@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title %></title>
+    <link rel="stylesheet" href="/styles/style.css">
+</head>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<body>
+    <nav class="opa">
+        <img src="/pode_subir.png" alt="">
+       <div>
+        <a href="/">HOME</a>
+        <a href="/index">NOVO POST</a>
+       </div>
+       </nav>
+    <h1>Editar post (<%= post.name %>)</h1>
+    <div class="caixa edit">
+    <form action="/update/<%= post._id %>" method="post" enctype="multipart/form-data">
+         <label for="name">Nome do post</label><br>
+         <input type="text" name="name" value="<%= post.name %>" required><br>
+         <label for="content">Escreva o conteúdo do post</label><br>
+        <textarea name="content" cols="30" rows="10" maxlength="200" required><%= post.content %></textarea><br>
+         <div> 
+         <label for="image">Imagem sobre o post</label>
+         <input type="file" name="image"><br><br><br>
+         <p>imagem usada anteriormente:</p>
+         <img src="/<%= post.image %>" width="200px" height="200px">
+         </div>
+         <input type="hidden" name="old_image" value="<%= post.image %>">
+        <input type="submit" name="submit" value="Editar post">
+    </form> 
+    
+</div>
+</body>
+</html>
