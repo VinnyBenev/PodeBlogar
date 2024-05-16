@@ -4,30 +4,30 @@ Um trabalho realizado durante o curso técnico de informática p/Internet em FIE
 
 # Funcionalidades
 
---Visualizar posts: todos os posts podem ser observados na página inicial, de forma sequencial e atrativa;
---Inserir post: É possível criar um novo post para o blog, adicionando um nome, imagem e o conteúdo abordado como tópico do post;
---Editar post: Caso não esteja satisfeito com algo no post criado, é possível acessar uma página de edição para alterar algum dado da postagem;
+--Visualizar posts: todos os posts podem ser observados na página inicial, de forma sequencial e atrativa;\
+--Inserir post: É possível criar um novo post para o blog, adicionando um nome, imagem e o conteúdo abordado como tópico do post;\
+--Editar post: Caso não esteja satisfeito com algo no post criado, é possível acessar uma página de edição para alterar algum dado da postagem;\
 --Deletar post: Por fim, é permitido deletar um post já inserido ao blog.
 
 # Tecnologias
 Tecnologias utilizadas:
 
-  *Javascript
-  *Node
-  *Express
-  *Multer
-  *EJS
-  *mongoose
+  *Javascript\
+  *Node\
+  *Express\
+  *Multer\
+  *EJS\
+  *mongoose\
   *CSS
 
 # Instalação
-Para instalar o projeto em sua máquina:
+Para instalar o projeto em sua máquina:\
 
-1- clone o repositório em seu ambiente de trabalho com `git clone https://github.com/VinnyBenev/PodeBlogar`
-2- Instale o Node.js em sua máquina
-3-  Utilize o comando `cd CRUD_JavaScript` no terminal
-4- Instale as dependências do projeto `npm i` 
-5- Inicie a aplicação `npm start`
+1- clone o repositório em seu ambiente de trabalho com `git clone https://github.com/VinnyBenev/PodeBlogar`\
+2- Instale o Node.js em sua máquina\
+3-  Utilize o comando `cd CRUD_JavaScript` no terminal\
+4- Instale as dependências do projeto `npm i` \
+5- Inicie a aplicação `npm start`\
 6- Abra o navegador na rota "http://localhost:4000"
 
 #Principais Aprendizados
